@@ -1,0 +1,76 @@
+.about-image{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    &::before{
+        position: absolute;
+        z-index: -1;
+        content: "";
+        top: 15px;
+        left: 15px;
+        width: 100%;
+        height: 100%;
+        background-color: #e9ecef;
+        transition: 0.3s;
+    }
+    &:hover{
+        &::before{
+            top: -10px;
+            left: -10px;
+            background-color: $themeColor;
+        }
+        img{
+            transform: translateX(5px);
+        }
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.about-text{
+    h2{
+        text-transform: capitalize;
+        font-size: 22px;
+        font-weight: 600;
+        color: $themeColor;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 15px;
+        font-weight: 600;
+        color: $themeColor;
+        line-height: 27px;
+        margin-bottom: 20px;
+        span{
+            color: $bodyColor;
+        }
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        color: $textColor;
+        line-height: 27px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.about-button{
+    margin-top: 30px;
+}
+
+@include breakpointWidth(991px){
+    .about-image{
+        width: 100%;
+        margin: 0 auto 50px;
+    }
+}
+
+@include breakpointWidth(767px){
+    .about-content{
+        text-align: center;
+    }
+}

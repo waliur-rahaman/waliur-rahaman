@@ -1,0 +1,28 @@
+.single-counter{
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.counter-icon{
+    margin-bottom: 15px;
+    i{
+        font-size: 50px;
+        color: $white;
+    }
+}
+
+.counter-text{
+    h2{
+        font-size: 30px;
+        font-weight: 600;
+        color: $white;
+        margin-bottom: 10px;
+    }
+    p{
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 400;
+        color: $white;
+    }
+}

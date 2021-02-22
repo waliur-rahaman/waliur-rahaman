@@ -1,0 +1,33 @@
+//font family included
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$poppinsFont: 'Poppins', sans-serif;
+
+//solid color
+$white: #fff;
+$black: #000;
+$yellow: yellow;
+
+//theme color
+$themeColor: #f89d36;
+$bodyColor: #161c2d;
+$hoverColor: #f38508;
+
+//text color
+$titleColor: #d11141;
+$subTitleColor: #242F51;
+$textColor: #8492a6;
+
+//background color
+$bgHeader: #32325d;
+$bgCard: #F5F7FA;
+$bgService: #f8f9fa;
+$bgFooter: #111111;
+$bgFooter: #3c4858;
+
+//icon color
+.fa-facebook:hover{ background-color: #38529A; }
+.fa-twitter:hover{ background-color: #1C9CEA; }
+.fa-google:hover{ background-color: #DC3C2A; }
+.fa-github:hover{ background-image: linear-gradient(#82248C, #51257A); }
+.fa-heart{ color: #d6374a; }

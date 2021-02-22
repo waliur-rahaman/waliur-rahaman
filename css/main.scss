@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------------------------
+Theme Name: 
+Author: 
+URL: 
+version: 1.0.0
+------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------
+CSS table of content
+
+    01. Base style
+    02. Header style
+    03. Button style
+    04. Header style
+    05. Slider style
+
+------------------------------------------------------------------------------------*/
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/breakpoints";
+/*-------------------------
+01. Base style
+-------------------------*/
+@import "base/base";
+
+/*-------------------------
+02. Typograph style
+-------------------------*/
+@import "base/typography";
+
+/*-------------------------
+03. Button style
+-------------------------*/
+@import "components/buttons";
+
+/*-------------------------
+04. Header style
+-------------------------*/
+@import "layouts/header";
+
+/*-------------------------
+05. Slider style
+-------------------------*/
+@import "layouts/slider";
+
+/*-------------------------
+05. About style
+-------------------------*/
+@import "layouts/about";
+
+/*-------------------------
+05. Interest style
+-------------------------*/
+@import "layouts/interest";
+
+/*-------------------------
+05. Counter style
+-------------------------*/
+@import "layouts/counter";
+
+/*-------------------------
+05. Services style
+-------------------------*/
+@import "layouts/services";
+
+/*-------------------------
+05. Portfolio style
+-------------------------*/
+@import "layouts/portfolio";
+
+/*-------------------------
+05. Blog style
+-------------------------*/
+@import "layouts/blog";
+
+/*-------------------------
+05. Contact style
+-------------------------*/
+@import "layouts/contact";
+
+/*-------------------------
+05. Skills style
+-------------------------*/
+@import "layouts/skills";
+
+/*-------------------------
+00. Footer style
+-------------------------*/
+@import "layouts/footer";
+
+/*-------------------------
+00. Responsive style
+-------------------------*/
+@import "layouts/responsive";

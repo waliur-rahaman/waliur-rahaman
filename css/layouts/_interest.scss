@@ -1,0 +1,44 @@
+.single-interest{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 16px;
+    background-color: #f9fafd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        top: 0%;
+        left: 48px;
+        width: 1px;
+        height: 100%;
+        background-color: #e9ecef;
+    }
+    &:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15);
+        .interest-icon i{
+            color: $themeColor;
+        }
+    }
+}
+
+.interest-icon{
+    margin-right: 30px;
+    i{
+        font-size: 15px;
+        color: $bodyColor;
+        transition: 0.3s;
+    }
+}
+
+.interest-text{
+    h2{
+        font-size: 15px;
+        font-weight: 500;
+        color: $bodyColor;
+    }
+}
