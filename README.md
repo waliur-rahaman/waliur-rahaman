@@ -1,15 +1,11 @@
-## Hi there 👋
+<h1>Hi 👋, I'm Waliur Rahaman</h1>
 
-**waliur-rahaman/waliur-rahaman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🏢 I have completed my B.Sc in **Computer Science and Engineering** from **[DUET](https://www.duet.ac.bd/)**.
 
-Here are some ideas to get you started:
+- 🏢 I am learning **Node.js, Mongodb**.
 
-- 🔭 I’m currently working on Front end
-- 🌱 I’m currently learning MERN
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 🏢 My Skills: **HTML5, CSS3, Bootstrap, Woordpress, php, Javascript, React js, Next js, Blockchain, Solidity, Smart contract, Token presale, NFT minting**.
 
+- 🔗 Reach me at web: **[waliurr.github.io/waliurr](https://waliurr.github.io/waliurr/)**
+
+- 📧 Reach me at email: **[Waliur Rahaman](mailto:waliurr00@gmail.com)**
